@@ -6,3 +6,132 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.01rem;
+}
+
+.logo {
+  width: 6rem;
+  margin: 10px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+#nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 0.5rem;
+  margin-right: 10px;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-size: 0.8rem;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.page-one {
+  align-items: center;
+}
+.home {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+}
+.home img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.overlay-text h1 {
+  margin-bottom: 1rem;
+}
+
+.section-white {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.section-white h2 {
+  text-decoration: underline #00b172;
+  color: #1a1a1a;
+  text-align: center;
+}
+.item-container h3 {
+  color: #00b172;
+  margin-bottom: 1rem;
+}
+.item-container p {
+  color: #1a1a1a;
+}
+.item-container {
+  margin: 0 10px;
+  gap: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-items: center;
+  padding: 20px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+.logoo {
+  width: 70px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.green-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: first baseline;
+}
+.yeezy-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-spot img {
+  width: 1rem;
+  position: absolute;
+  /* width: 100%; */
+  height: auto;
+}
+.big-img {
+  display: flex;
+}
+.big-img img {
+  max-width: 200px;
+  height: fit-content;
+}
